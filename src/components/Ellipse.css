@@ -1,0 +1,59 @@
+.outerEllipse {
+    width: 1400px;
+    height: 1400px;
+    background: linear-gradient(180deg, #D4E1FF 0%, #FFFFFF 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    right: 46%;
+    transform: rotate(180deg);
+    top: -50%;
+}
+
+.innerEllipse4,
+.innerEllipse3,
+.innerEllipse2,
+.innerEllipse1,
+.innerEllipse0,
+.innerEllipse {
+    width: 1000px;
+    height: 1000px;
+    background: linear-gradient(180deg, #D4E1FF 0%, #FFFFFF 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerEllipse {
+    width: 100px !important;
+    height: 100px !important;
+    background: linear-gradient(180deg, #D4E1FF 0%, #FFFFFF 100%) !important;
+}
+
+.innerEllipse0 {
+    width: 200px !important;
+    height: 200px !important;
+    background: linear-gradient(180deg, #D4E1FF 0%, #FFFFFF 100%) !important;
+}
+
+.innerEllipse1 {
+    width: 400px !important;
+    height: 400px !important;
+    background: linear-gradient(180deg, #D4E1FF 0%, #FFFFFF 100%) !important;
+}
+
+.innerEllipse2 {
+    width: 600px !important;
+    height: 600px !important;
+    background: linear-gradient(180deg, #D4E1FF 0%, #FFFFFF 100%) !important;
+}
+
+.innerEllipse3 {
+    width: 1000px !important;
+    height: 1000px !important;
+    background: linear-gradient(180deg, #C9D9FF 0%, #FFFFFF 100%) !important;
+}

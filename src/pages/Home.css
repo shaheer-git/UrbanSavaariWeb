@@ -1,0 +1,43 @@
+.vehiclesImgCon {
+    right: 0%;
+    top: 13%;
+    z-index: -1;
+}
+
+.vehiclesImg {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    height: 90vh;
+}
+
+.early-access-con {
+    height: 80vh;
+    width: 55vw;
+}
+
+@media (min-width: 1280px) {
+    .early-access-con {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 804px) {
+    .early-access-con {
+        width: auto !important;
+    }
+}
+
+.h-80vh {
+    height: 80vh;
+}
+
+.w-43per {
+    width: 43%;
+}
+
+#mobile {
+    padding: 8px 20px;
+    width: 300px;
+    outline: none;
+    border: 2px solid #1B3C73;
+}

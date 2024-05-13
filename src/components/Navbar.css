@@ -1,0 +1,15 @@
+.active {
+    border-bottom: 2px solid rgb(27, 60, 115);
+    color: rgb(27, 60, 115) !important;
+    font-weight: 700;
+}
+
+li {
+    transition: all 0.1s ease;
+}
+
+li:hover {
+    border-bottom: 2px solid rgb(27, 60, 115);
+    color: rgb(27, 60, 115) !important;
+    font-weight: 700;
+}
